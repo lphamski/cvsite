@@ -1,0 +1,32 @@
+.myForm{
+    width: 700px;
+    height: 395px;
+    background-color: white;  
+    display: inline-block;
+    box-shadow: 10px 10px 10px grey;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: grey;
+    padding:40px;
+    font-family: "Playfair Display", Palatino, "Times New Roman", Times, serif;
+}
+.labels{
+    text-align: left;
+    justify-content: left;
+    color:black;
+}
+
+
+
+.myContainer{
+    height: 90vh;
+    padding-top: 40px;
+    margin: auto;
+   
+}
+
+.contactMe{
+    font-size: 50px;
+    font-family: "Playfair Display", Palatino, "Times New Roman", Times, serif;
+    font-weight: bold;
+}

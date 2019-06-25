@@ -1,0 +1,34 @@
+.myHome{
+    font-family: "Playfair Display", Palatino, "Times New Roman", Times, serif;
+    font-size: calc(28px + (36 * ((100vw - 320px) / 1380)));
+    font-weight: bold;
+    text-align: left; /*To justify text left*/
+    display: inline-block; /*to center the text in the center*/
+    padding-top: 100px;
+}
+
+.loopwords{
+    color: black;
+}
+
+.myRes{
+    height: 50px;
+    width: 150px; 
+    background-color: darkgrey;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid grey;
+    margin-top: 40px;
+}
+.download{
+    color: white;
+    
+}
+
+.myHomeContainer{
+    width: 100%;
+    height: 90vh;
+    -webkit-overflow-scrolling: touch;
+    
+    overflow: scroll;
+}

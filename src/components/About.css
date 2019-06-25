@@ -1,0 +1,65 @@
+.myContainer{
+    font-family: "Playfair Display", Palatino, "Times New Roman", Times, serif;
+
+    display: inline-block;
+    height: 130vh !important;
+}
+
+#about-head{
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+#cards{
+    display: inline;
+}
+
+#card1{
+    float: left;
+    width: 50%;
+}
+
+#card2{
+    float: right;
+    width: 50%;
+}
+
+#about-intro{
+    width: 40%;
+    float: right;
+    font-weight: bold;
+    margin-top: -30px;
+    vertical-align: middle;
+}
+
+#about-pic{
+    width: 30%; 
+    float:left;
+    position: relative;
+    top: -170px;
+}
+.myIntro{
+    
+}
+
+.about-col{
+    padding: 20px;
+    background-color: black;
+    width: 100vh;
+    margin-top: 20px;
+    color: white;
+    height: 100px;
+    display: inline-block;
+
+}
+
+#my-img{
+ 
+}
+img{
+    border-radius: 50%;
+    width: 350px;
+    height: 300px;
+}

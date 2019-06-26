@@ -1,35 +1,35 @@
 import React from 'react';
 import './About.css';
 import {Card, CardDeck} from 'react-bootstrap';
-
+import muster from './muster.jpg';
+import slughouse from './slughouse.jpg';
 
 const About = () => {
     return(
         <div className="myContainer">
             <h1 id="about-head">About me</h1>
             <div className="about-col">
-                    <p id="myIntro">
+                    <h6 id="myIntro">
                         Hello My Name is Leon Pham.  I enjoy coding and the ocean.  I graduated from the University of California, Santa Cruz
                         in June, 2019.  As of now I am actively searching for a full-time position as a Software Engineer. 
-                    </p>
+                    </h6>
             </div>
             <h1 id="about-head">Projects</h1>
-            <CardDeck>
+            <CardDeck className="firstDeck">
                 <Card classNamne="card" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={muster} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title><h1>Muster</h1></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                            A native Android app for group organization along with scheduling and login capabilities.
                         </Card.Text>
                         
                     </Card.Body>
                 </Card>
                 <Card classNamne="card" style={{ width: '18em' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={slughouse} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title><h1>SlugHouse</h1></Card.Title>
                         <Card.Text>
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
@@ -37,8 +37,8 @@ const About = () => {
                         
                     </Card.Body>
                 </Card>
+                
             </CardDeck>
-            
         </div>
     );
 

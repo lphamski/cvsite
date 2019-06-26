@@ -10,8 +10,12 @@
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
     "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "i": "^0.3.6",
+
     "npm": "^6.9.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
@@ -25,6 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -48,6 +53,14 @@
   "main": "index.js",
   "devDependencies": {},
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Leon Pham",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lphamski/cvsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lphamski/cvsite/issues"
+  },
+  "homepage": "https://github.com/lphamski/cvsite#readme"
 }

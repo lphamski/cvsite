@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css';
 import TextLoop from 'react-text-loop';
 import DownloadLink from "react-download-link";
+import resume from './LPResume.pdf';
+import {Button} from 'react-bootstrap';
 
 const Home = () => {
     return(
@@ -19,10 +21,8 @@ const Home = () => {
                     .
                 </p>
                 
-            </div>   
-            <div className="myRes">
-                <h5 className="download">Download CV</h5>
-            </div>         
+            </div>
+            
         </div>
     );
 

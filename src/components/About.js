@@ -31,8 +31,7 @@ const About = () => {
                     <Card.Body>
                         <Card.Title><h1>SlugHouse</h1></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                            A website made for students who have trouble finding housing in Santa Cruz and surrounding areas.  
                         </Card.Text>
                         
                     </Card.Body>

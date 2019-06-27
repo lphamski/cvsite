@@ -1,9 +1,7 @@
 import React from 'react';
 import './Home.css';
 import TextLoop from 'react-text-loop';
-import DownloadLink from "react-download-link";
-import resume from './LPResume.pdf';
-import {Button} from 'react-bootstrap';
+
 
 const Home = () => {
     return(
@@ -14,9 +12,9 @@ const Home = () => {
                     I'm a&nbsp;
                      <TextLoop interval={1300} springConfig={{ stiffness: 500, damping: 80 }}>
                         <span className="loopwords">Software Engineer</span>
-                        <span className="loopwords">Web Developer</span>
-                        <span className="loopwords">Surfer</span>
-                        <span className="loopwords">Sci-fi Nerd</span>
+                        <span className="loopwords">Web Developer 👨🏻‍💻</span>
+                        <span className="loopwords">Surfer 🏄🏽</span>
+                        <span className="loopwords">Sci-fi Nerd 🤓</span>
                     </TextLoop>
                     .
                 </p>

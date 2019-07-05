@@ -16,6 +16,7 @@ const About = () => {
             </div>
             <h1 id="about-head">Projects</h1>
             <CardDeck className="firstDeck">
+                
                 <Card classNamne="card" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={muster} />
                     <Card.Body>
@@ -31,7 +32,7 @@ const About = () => {
                     <Card.Body>
                         <Card.Title><h1>SlugHouse</h1></Card.Title>
                         <Card.Text>
-                            A website made for students who have trouble finding housing in Santa Cruz and surrounding areas.  
+                            A website made for students who have trouble finding housing in Santa Cruz and surrounding areas.
                         </Card.Text>
                         
                     </Card.Body>

@@ -6,7 +6,7 @@ import './Navbar.css';
 const Navbar = () => {
     return(
         <div className="sticky">
-            <nav className="nav-wrapper black lighten-1">
+            <nav className="nav-wrapper green lighten-1">
                 <ul className="left">
                     <li><Link to="/"><FontAwesomeIcon icon="home" size="lg" /></Link></li>
                     <li className="nav-words"><NavLink to="/about">About</NavLink></li>
